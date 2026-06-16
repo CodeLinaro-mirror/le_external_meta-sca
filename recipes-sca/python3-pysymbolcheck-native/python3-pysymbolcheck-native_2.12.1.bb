@@ -12,7 +12,7 @@ DEPENDS += "\
 "
 
 SRC_URI = "git://github.com/priv-kweihmann/pysymbolcheck.git;protocol=https;branch=master"
-SRCREV = "259709542a90e7bebb5d244fcfd734e67f3ffed5"
+SRCREV = "ddae95da3474d8bdcf4631d9c5a0e26650a2fa00"
 
 inherit sca-description
 inherit python_setuptools_build_meta
