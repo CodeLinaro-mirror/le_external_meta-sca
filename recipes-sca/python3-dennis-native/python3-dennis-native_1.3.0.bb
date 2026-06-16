@@ -12,8 +12,8 @@ DEPENDS += "\
             python3-polib-native \
            "
 
-SRC_URI[md5sum] = "42087b04214731b47fd83144f9cbde5d"
-SRC_URI[sha256sum] = "826d447ed9b3d3c9dec0d550a8647a90dfc8932ac5b8a1a619a0c30c7d63d79b"
+SRC_URI[md5sum] = "324900f27021d9a3836682ef0ee60cdf"
+SRC_URI[sha256sum] = "48be916cb7471c55542470475a9e0a169d91c9b584fa289e85ccd8bccd53e3e9"
 
 PYPI_PACKAGE = "dennis"
 
