@@ -3,14 +3,14 @@ HOMEPAGE = "https://metacpan.org/pod/PPIx::QuoteLike"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "GPL-2.0-only & Artistic-1.0"
-LIC_FILES_CHKSUM = "file://README;beginline=48;md5=f65adea87f7327e8fde90145fc4d610c"
+LIC_FILES_CHKSUM = "file://README;beginline=48;md5=0f40d316ab30a87ae4b53e6ea3f983fe"
 
 DEPENDS += "libmodule-build-perl-native"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/W/WY/WYANT/PPIx-QuoteLike-${PV}.tar.gz"
 
-SRC_URI[md5sum] = "551890e6c65a3eb0f4b753ad4288acb2"
-SRC_URI[sha256sum] = "3576a3149d2c53e07e9737b7892be5cfb84a499a6ef1df090b713b0544234d21"
+SRC_URI[md5sum] = "b32e22eee1fadb036a7d8e4c238e2869"
+SRC_URI[sha256sum] = "b71da7748be3a0ab7c19fe8a3ddf7fec480180342c8e76654d28582281152e07"
 
 UNPACKDIR ??= "${WORKDIR}/sources"
 S = "${UNPACKDIR}/PPIx-QuoteLike-${PV}"
