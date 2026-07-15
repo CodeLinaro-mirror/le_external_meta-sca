@@ -8,7 +8,7 @@ SCA_CARGODENY_EXTRA_FATAL ?= ""
 ## File extension filter list (whitespace separated)
 SCA_CARGODENY_FILE_FILTER ?= "Cargo.toml **/Cargo.toml"
 ## Checks to perform
-SCA_CARGODENY_CHECKS ?= "advisories ban bans sources"
+SCA_CARGODENY_CHECKS ?= "advisories bans sources"
 ## IDs to skip in reports (mostly temporary issues like network)
 SCA_CARGODENY_SKIP_IDS = "index-failure advisory-ignored yanked-ignored index-cache-load-failure allowed checksum-match"
 ## advisories DB location
@@ -86,12 +86,9 @@ python do_sca_cargodeny() {
 
     os.environ["CARGO_HOME"] = d.expand('${CARGO_HOME}/bitbake')
 
-    _args = ["cargo", "deny", "-f", "json", "-c", "never"]
+    _args = ["cargo", "deny", "-f", "json", "-c", "never", "--config", d.expand("${T}/deny-cfg.toml"), "--exclude-dev"]
     _args_post = ["check",
-                  "-d",
-                  "-c", d.expand("${T}/deny-cfg.toml"),
                   "--hide-inclusion-graph",
-                  "--exclude-dev",
                   *clean_split(d, "SCA_CARGODENY_CHECKS")]
 
     _files = get_files_by_glob(d,
@@ -110,6 +107,8 @@ python do_sca_cargodeny() {
     with open(sca_raw_result_file(d, "cargodeny"), "w") as o:
         json.dump(cmd_output, o)
 }
+
+do_sca_cargodeny[network] = "1"
 
 do_sca_cargodeny[vardeps] += "\
     SCA_CARGODENY_ADVISORIES_PATH \
