@@ -3,11 +3,11 @@ HOMEPAGE = "https://metacpan.org/pod/Perl::Tidy"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "GPL-2.0-only & Artistic-1.0"
-LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
+LIC_FILES_CHKSUM = "file://COPYING;md5=9afeda422fe5b2bbffca6a1453849a6d"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHANCOCK/Perl-Tidy-${PV}.tar.gz"
 
-SRC_URI[sha256sum] = "56a1fc2f1f813e49026a0f284b9209a6b2824620993e7598c85b01c444ff0f64"
+SRC_URI[sha256sum] = "f766fa146041912aff48945d35e23bac39baf8051ec28e430ec25d532ca4e372"
 
 UNPACKDIR ??= "${WORKDIR}/sources"
 S = "${UNPACKDIR}/Perl-Tidy-${PV}"
