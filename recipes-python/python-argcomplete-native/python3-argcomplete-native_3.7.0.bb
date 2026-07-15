@@ -8,7 +8,7 @@ DEPENDS += "python3-hatch-vcs-native"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 
-SRC_URI[sha256sum] = "62e8ed4fd6a45864acc8235409461b72c9a28ee785a2011cc5eb78318786c89c"
+SRC_URI[sha256sum] = "afde224f753f874807b1dc1414e883ab8fe0cda9c04807b6047dcb8e1ac23913"
 
 PYPI_PACKAGE = "argcomplete"
 
