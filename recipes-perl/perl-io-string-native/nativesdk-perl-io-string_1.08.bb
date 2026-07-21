@@ -2,7 +2,7 @@ SUMMARY = "Emulate file interface for in-core strings"
 HOMEPAGE = "https://metacpan.org/pod/IO::String"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://README;beginline=16;md5=9ec31d28c1f3dbb643ce3ca6f890a0b0"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GAAS/IO-String-${PV}.tar.gz"

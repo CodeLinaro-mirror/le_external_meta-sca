@@ -1,5 +1,5 @@
 SUMMARY = "Security advisory database for Rust crates"
-LICENSE = "CC0-1.0 & CC-BY-4.0"
+LICENSE = "CC-BY-4.0 AND CC0-1.0"
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=1a8d973e46fb606350485b17c005768e"
 
 PV = "1.0+git"

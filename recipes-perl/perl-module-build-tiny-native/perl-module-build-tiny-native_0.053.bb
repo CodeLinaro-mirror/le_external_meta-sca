@@ -2,7 +2,7 @@ SUMMARY = "A tiny replacement for Module::Build"
 HOMEPAGE = "https://metacpan.org/pod/Module::Build::Tiny"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3eab9a3cd580096821fd1e657e2f31d5"
 
 DEPENDS += "\

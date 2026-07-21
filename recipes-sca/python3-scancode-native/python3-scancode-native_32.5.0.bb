@@ -2,7 +2,7 @@ SUMMARY = "ScanCode is a tool to scan code for license, copyright"
 HOMEPAGE = "https://github.com/aboutcode-org/scancode-toolkit"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "CC-BY-SA-4.0 & Apache-2.0"
+LICENSE = "Apache-2.0 AND CC-BY-SA-4.0"
 LIC_FILES_CHKSUM = "\
                     file://apache-2.0.LICENSE;md5=86d3f3a95c324c9479bd8986968f4327 \
                     file://cc-by-4.0.LICENSE;md5=c2b69cea79405efd14cca910fbc5c070 \

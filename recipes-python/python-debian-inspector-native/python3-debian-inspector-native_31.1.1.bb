@@ -2,7 +2,7 @@ SUMMARY = "Utilities to parse Debian package, copyright and control files"
 HOMEPAGE = "https://github.com/nexB/debian-inspector"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "Apache-2.0 & BSD-3-Clause & MIT"
+LICENSE = "Apache-2.0 AND BSD-3-Clause AND MIT"
 LIC_FILES_CHKSUM = "\
     file://apache-2.0.LICENSE;md5=86d3f3a95c324c9479bd8986968f4327 \
     file://bsd-new.LICENSE;md5=7bdbf9caf4687a7e5803382ed7f2dcf6 \

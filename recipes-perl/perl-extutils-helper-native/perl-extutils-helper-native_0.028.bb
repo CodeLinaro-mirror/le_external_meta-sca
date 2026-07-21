@@ -2,7 +2,7 @@ SUMMARY = "Various portability utilities for module builders"
 HOMEPAGE = "https://metacpan.org/pod/ExtUtils::Helpers"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=c0280160e4f26faafef507664884bf63"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-${PV}.tar.gz"

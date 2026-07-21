@@ -2,7 +2,7 @@ SUMMARY = "YAML 1.2 processor"
 HOMEPAGE = "https://metacpan.org/pod/YAML::PP"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=1af3dd18939834f88fae5b9a0dfd5ccc"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-PP-v${PV}.tar.gz"

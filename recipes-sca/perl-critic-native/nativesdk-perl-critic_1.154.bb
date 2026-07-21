@@ -2,7 +2,7 @@ SUMMARY = "The leading static analyzer for Perl. Configurable, extensible, power
 HOMEPAGE = "https://github.com/Perl-Critic/Perl-Critic"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-1.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-1.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=7aeaba565e72805da904a73fdc467406"
 
 DEPENDS += "\

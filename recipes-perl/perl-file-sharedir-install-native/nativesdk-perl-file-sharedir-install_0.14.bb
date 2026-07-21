@@ -2,7 +2,7 @@ SUMMARY = "Install shared files"
 HOMEPAGE = "https://metacpan.org/pod/File::ShareDir::Install"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=7a8070807ef71bcb5c0523e6dfa84727"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-${PV}.tar.gz"

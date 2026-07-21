@@ -423,7 +423,7 @@ SUMMARY = "go.mod: %name%"
 HOMEPAGE = "https://pkg.go.dev/%name%"
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 # License is determined by the modules included and will be therefore computed
-LICENSE = "${@' & '.join(sorted(set(x for x in (d.getVar('GOSRC_LICENSE') or '').split(' ') if x)))}"
+LICENSE = "${@' AND '.join(sorted(set(x for x in (d.getVar('GOSRC_LICENSE') or '').split(' ') if x)))}"
 
 # inject the needed sources
 %includesstr%
@@ -555,7 +555,7 @@ def create_module(args, pbar, name, version, level, force, breadcrumb=[]):
             __get_conditional_require_string(x) for x in sorted(_desc["childreninc"])
         )
 
-        _desc["license"] = " & ".join(sorted(_desc["_collected_licenses"]))
+        _desc["license"] = " AND ".join(sorted(_desc["_collected_licenses"]))
         _desc["includesstr"] = "\n".join(__create_include_file(args, _desc))
         _desc["recipeextra"] = "\n".join(
             args.erratadict.get(name, {}).get("recipeextra", []))

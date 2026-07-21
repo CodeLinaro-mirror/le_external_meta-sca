@@ -2,7 +2,7 @@ SUMMARY = "Call isa, can, does and DOES safely on things that may not be objects
 HOMEPAGE = "https://metacpan.org/pod/Safe::Isa"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://README;beginline=147;md5=87e1d51b7bf1b1a730156174d3235554"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Safe-Isa-${PV}.tar.gz"

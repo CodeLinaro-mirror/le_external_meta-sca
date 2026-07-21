@@ -2,7 +2,7 @@ SUMMARY = "an exporter with the features of Sub::Exporter but only core dependen
 HOMEPAGE = "https://metacpan.org/pod/Exporter::Tiny"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=034cf2a8ee38a7a2efaef1e024f5912d"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-${PV}.tar.gz"

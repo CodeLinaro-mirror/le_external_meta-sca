@@ -2,7 +2,7 @@ SUMMARY = "Get a public suffix for a domain name using the Public Suffix List"
 HOMEPAGE = "https://github.com/nexb/python-publicsuffix2"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "MIT & MPL-2.0"
+LICENSE = "MIT AND MPL-2.0"
 LIC_FILES_CHKSUM = "file://publicsuffix2.LICENSE;md5=18f95bf99d093deb07ba194bbf6c64d2"
 
 DEPENDS += "\

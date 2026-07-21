@@ -2,7 +2,7 @@ SUMMARY = "An object representing a stack trace"
 HOMEPAGE = "https://metacpan.org/pod/Devel::StackTrace"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-2.0"
+LICENSE = "Artistic-2.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=c15f2badb666f40116f8db9265d63c27"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-${PV}.tar.gz"

@@ -1,6 +1,6 @@
 SUMMARY = "Cargo plugin for linting your dependencies"
 HOMEPAGE = "https://github.com/EmbarkStudios/cargo-deny"
-LICENSE = "Apache-2.0 & MIT"
+LICENSE = "Apache-2.0 AND MIT"
 LIC_FILES_CHKSUM = "file://LICENSE-APACHE;md5=8f7bb094c7232b058c7e9f2e431f389c \
                     file://LICENSE-MIT;md5=a9e22c5c3122ce58054e0c879821779e"
 

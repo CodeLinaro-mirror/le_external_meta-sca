@@ -1,6 +1,6 @@
 SUMMARY = "A really bad package"
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "CLOSED& GPL-2.0-or-later |MIT"
+LICENSE = "GPL-2.0-or-later AND LicenseRef-scatest-CLOSED OR MIT"
 
 SRC_URI += "\
             file://test1/LICENSE;subdir=source \

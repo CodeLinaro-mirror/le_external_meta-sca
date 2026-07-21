@@ -2,7 +2,7 @@ SUMMARY = "Simple Python style checker in one Python file"
 HOMEPAGE = "https://github.com/PyCQA/pycodestyle"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "EXPAT"
+LICENSE = "LicenseRef-EXPAT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=a8546d0e77f416fb05a26acd89c8b3bd"
 
 PYPI_PACKAGE = "pycodestyle"

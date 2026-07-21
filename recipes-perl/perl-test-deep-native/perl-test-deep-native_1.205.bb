@@ -2,7 +2,7 @@ SUMMARY = "Extremely flexible deep comparison"
 HOMEPAGE = "https://metacpan.org/pod/Test::Deep"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-1.0-or-later & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-1.0-or-later"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=227c31033a83e1d419d9f75d0c150a09"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-${PV}.tar.gz"

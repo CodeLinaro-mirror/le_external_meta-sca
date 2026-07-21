@@ -2,7 +2,7 @@ SUMMARY = "recursively copy Perl datatypes"
 HOMEPAGE = "https://metacpan.org/pod/Clone"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://README.md;beginline=217;endline=220;md5=c6eace11110d07e007cb7c426d201ddd"
 
 SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-${PV}.tar.gz"

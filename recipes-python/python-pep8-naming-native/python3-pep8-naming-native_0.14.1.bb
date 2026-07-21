@@ -2,7 +2,7 @@ SUMMARY = "Naming Convention checker for Python"
 HOMEPAGE = "https://github.com/PyCQA/pep8-naming"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "EXPAT"
+LICENSE = "LicenseRef-EXPAT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=6aba56fb2ab6893b08fb8daa7eeba461"
 
 DEPENDS += "python3-flake8-polyfill-native"

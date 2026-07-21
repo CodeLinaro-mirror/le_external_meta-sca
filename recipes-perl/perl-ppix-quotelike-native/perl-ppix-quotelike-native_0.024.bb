@@ -2,7 +2,7 @@ SUMMARY = "Parse Perl string literals and string-literal-like things"
 HOMEPAGE = "https://metacpan.org/pod/PPIx::QuoteLike"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
-LICENSE = "GPL-2.0-only & Artistic-1.0"
+LICENSE = "Artistic-1.0 AND GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://README;beginline=48;md5=0f40d316ab30a87ae4b53e6ea3f983fe"
 
 DEPENDS += "libmodule-build-perl-native"
