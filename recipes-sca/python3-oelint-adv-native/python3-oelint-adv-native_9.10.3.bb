@@ -16,7 +16,7 @@ DEPENDS += "\
             python3-urllib3-native \
             "
 
-SRC_URI[sha256sum] = "540ba20e964d5e2c9721e0c9c37c81a56b4b3842e1031eb85e10fd09e641e25e"
+SRC_URI[sha256sum] = "c32cf27c6feea91c79b3c1e1b5931b69f5c539410dd892c4113f3baacb28e39e"
 
 PYPI_PACKAGE = "oelint-adv"
 
