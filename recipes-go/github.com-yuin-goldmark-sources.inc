@@ -1,5 +1,5 @@
-SRC_URI += "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.8.4.zip;srcoutput=github.com/yuin/goldmark;srcinput=github.com/yuin/goldmark@v1.8.4;downloadfilename=github-com-yuin-goldmark-1.8.4.zip;name=github-com-yuin-goldmark"
-SRC_URI[github-com-yuin-goldmark.sha256sum] = "b74beb4cab56f9a197024c7da7def440133cea623e5667d1dea59e5e051499cf"
+SRC_URI += "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.8.5.zip;srcoutput=github.com/yuin/goldmark;srcinput=github.com/yuin/goldmark@v1.8.5;downloadfilename=github-com-yuin-goldmark-1.8.5.zip;name=github-com-yuin-goldmark"
+SRC_URI[github-com-yuin-goldmark.sha256sum] = "2fa45e249cefad0a1b2ae0efebbaf59a86380a211349d3e9f04dbc172830cf53"
 GOSRC_REMOVEDIRS += "github.com/yuin/goldmark/fuzz"
 
 GOSRC_LICENSE += "\
