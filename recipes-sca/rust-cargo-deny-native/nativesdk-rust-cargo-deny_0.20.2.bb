@@ -4,6 +4,8 @@ LICENSE = "Apache-2.0 AND MIT"
 LIC_FILES_CHKSUM = "file://LICENSE-APACHE;md5=8f7bb094c7232b058c7e9f2e431f389c \
                     file://LICENSE-MIT;md5=a9e22c5c3122ce58054e0c879821779e"
 
+DEPENDS += "nativesdk-zstd"
+
 CRATES_LIST = "\
     crate://crates.io/adler2/2.0.1 \
     crate://crates.io/aho-corasick/1.1.4 \
@@ -434,6 +436,7 @@ SRCREV = "bca0dde53651ee946720e4540b5ce2610bec8f06"
 
 inherit cargo
 inherit cargo-update-recipe-crates
+inherit pkgconfig
 inherit github-releases
 inherit sca-description
 inherit_defer nativesdk
