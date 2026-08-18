@@ -1,7 +1,10 @@
 SUMMARY = "Annotate AST trees with source code positions"
 HOMEPAGE = "https://github.com/gristlabs/asttokens"
 
-DEPENDS += "python3-setuptools-scm-native"
+DEPENDS += "\
+    python3-setuptools-scm-native \
+    python3-wheel-native \
+"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "Apache-2.0"
