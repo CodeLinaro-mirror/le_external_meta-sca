@@ -5,6 +5,8 @@ DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "BSD-2-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=63a78af2900bfcc5ce482f3b8d445898"
 
+DEPENDS += "python3-wheel-native"
+
 PYPI_PACKAGE = "wrapt"
 
 SRC_URI[md5sum] = "1100ca602ac94562956ea6ac3dca93c4"
