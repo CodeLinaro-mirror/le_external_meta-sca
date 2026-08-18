@@ -5,6 +5,8 @@ DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "GPL-3.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=1c76c4cc354acaac30ed4d5eefea7245"
 
+DEPENDS += "python3-wheel-native"
+
 PYPI_PACKAGE = "systemdunitparser"
 
 SRC_URI[md5sum] = "ca9f41e0fffc4790074f9fa0812bca46"
