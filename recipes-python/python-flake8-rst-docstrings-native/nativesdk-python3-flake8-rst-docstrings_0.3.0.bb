@@ -9,6 +9,7 @@ DEPENDS += "\
     nativesdk-python3-flake8 \
     nativesdk-python3-restructuredtext-lint \
     python3-pip-native \
+    python3-wheel-native \
 "
 
 PYPI_PACKAGE = "flake8-rst-docstrings"
