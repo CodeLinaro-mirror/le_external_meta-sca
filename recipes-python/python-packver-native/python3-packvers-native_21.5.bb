@@ -9,7 +9,10 @@ LIC_FILES_CHKSUM = "\
     file://LICENSE.BSD;md5=7bef9bf4a8e4263634d0597e7ba100b8 \
 "
 
-DEPENDS += "python3-pyparsing-native"
+DEPENDS += "\
+    python3-pyparsing-native \
+    python3-wheel-native \
+"
 
 PYPI_PACKAGE = "packvers"
 
