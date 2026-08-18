@@ -9,7 +9,10 @@ LIC_FILES_CHKSUM = "\
     file://native/libcst_derive/LICENSE;md5=bb0bb1a5e064e5019d855a2d28147544 \
 "
 
-DEPENDS += "python3-pyyaml-native"
+DEPENDS += "\
+    python3-pyyaml-native \
+    python3-wheel-native \
+"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 
