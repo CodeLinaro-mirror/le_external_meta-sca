@@ -9,6 +9,7 @@ DEPENDS += "\
     python3-chardet-native \
     python3-setuptools-scm-native \
     python3-six-native \
+    python3-wheel-native \
 "
 
 PYPI_PACKAGE = "python-debian"
