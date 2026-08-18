@@ -10,6 +10,7 @@ DEPENDS += "\
     nativesdk-python3-chardet \
     nativesdk-python3-text-unidecode \
     python3-setuptools-scm-native \
+    python3-wheel-native \
 "
 
 PYPI_PACKAGE = "normality"
