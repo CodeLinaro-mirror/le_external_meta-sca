@@ -10,10 +10,11 @@ LIC_FILES_CHKSUM = "\
 "
 
 DEPENDS += "\
-            python3-attrs-native \
-            python3-chardet-native \
-            python3-setuptools-scm-native \
-           "
+    python3-attrs-native \
+    python3-chardet-native \
+    python3-setuptools-scm-native \
+    python3-wheel-native \
+"
 
 PYPI_PACKAGE = "debian-inspector"
 
