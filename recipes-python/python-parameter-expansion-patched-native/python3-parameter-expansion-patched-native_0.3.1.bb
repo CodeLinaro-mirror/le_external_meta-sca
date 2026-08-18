@@ -5,7 +5,10 @@ DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
-DEPENDS += "python3-setuptools-scm-native"
+DEPENDS += "\
+    python3-setuptools-scm-native \
+    python3-wheel-native \
+"
 
 PYPI_PACKAGE = "parameter-expansion-patched"
 PYPI_ESCAPE_PACKAGE_NAME = "0"
