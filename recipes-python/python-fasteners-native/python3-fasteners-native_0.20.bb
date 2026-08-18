@@ -5,6 +5,8 @@ DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=4476c4be31402271e101d9a4a3430d52"
 
+DEPENDS += "python3-wheel-native"
+
 PYPI_PACKAGE = "fasteners"
 
 SRC_URI[md5sum] = "dd412feb9e6a7e5d167810016b85ac2b"
