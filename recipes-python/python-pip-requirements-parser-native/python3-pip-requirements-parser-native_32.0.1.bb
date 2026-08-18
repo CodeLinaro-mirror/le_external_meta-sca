@@ -8,6 +8,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=961e541f21c179e02693b13ceec3ba7b"
 DEPENDS += "\
     python3-packaging-native \
     python3-setuptools-scm-native \
+    python3-wheel-native \
 "
 
 PYPI_PACKAGE = "pip-requirements-parser"
