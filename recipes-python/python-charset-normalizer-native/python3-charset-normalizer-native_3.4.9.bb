@@ -21,4 +21,5 @@ do_configure:prepend() {
     # as this is an ever moving target
     sed -i "s#,<=[0-9][0-9].[0-9].[0-9]##" ${S}/pyproject.toml
     sed -i "s#,<[0-9][0-9].[0-9].[0-9]##" ${S}/pyproject.toml
+    sed -i 's#,<[0-9][0-9].[0-9]"]#"]#' ${S}/pyproject.toml
 }
