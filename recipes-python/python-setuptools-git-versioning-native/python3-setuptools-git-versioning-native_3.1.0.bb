@@ -7,14 +7,15 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=92e79e3a844e66731724600f3ac9c0d8"
 
 DEPENDS += "\
     python3-packaging-native \
+    python3-wheel-native \
 "
 
-PYPI_PACKAGE = "setuptools-git-versioning"
+PYPI_PACKAGE = "setuptools_git_versioning"
 
-SRC_URI[sha256sum] = "85b5fbe7bda8e9c24bbd9e587a9d4b91129417f4dd3e11e3c0d5f3f835fc4d4d"
+SRC_URI[sha256sum] = "612dfcf184addac9e1c2216f4f229724b2390e5bf613fb925ae80b84f2529172"
 
 inherit pypi
-inherit setuptools3
+inherit python_setuptools_build_meta
 inherit_defer native
 
 RDEPENDS:${PN}:class-nativesdk += "\
