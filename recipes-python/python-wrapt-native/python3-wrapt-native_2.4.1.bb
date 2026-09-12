@@ -9,8 +9,8 @@ DEPENDS += "python3-wheel-native"
 
 PYPI_PACKAGE = "wrapt"
 
-SRC_URI[md5sum] = "1100ca602ac94562956ea6ac3dca93c4"
-SRC_URI[sha256sum] = "681a2d0eefd721998f90642762b8e75c2159ec531b20ad5e437245ea7b06a107"
+SRC_URI[md5sum] = "cb2ad46e47667cc722c87d3f682d01ce"
+SRC_URI[sha256sum] = "fd6390aab9e8aa40c52eff3c180f098e8d9f5894b1fd4c4fd2c207067b33ed16"
 
 inherit pypi
 inherit python_setuptools_build_meta
