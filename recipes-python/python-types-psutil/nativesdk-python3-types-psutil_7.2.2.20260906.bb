@@ -6,10 +6,10 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/${LICENSE};md5=89aea4e17d99a7ca
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
 
-SRC_URI[sha256sum] = "8cbe086b9c29f5c0aa55c4422498c07a8e506f096205761dba088905198551dc"
+SRC_URI[sha256sum] = "93abf22cf9a62b915f724e433bde702995ac274865425fd4a76d1d9b5828da1a"
 
 inherit pypi
-inherit setuptools3
+inherit python_setuptools_build_meta
 inherit_defer nativesdk
 
-PYPI_PACKAGE = "types-psutil"
+PYPI_PACKAGE = "types_psutil"
