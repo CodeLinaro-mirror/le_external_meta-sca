@@ -12,10 +12,10 @@ DEPENDS += "\
     python3-wheel-native \
 "
 
-PYPI_PACKAGE = "python-debian"
+PYPI_PACKAGE = "python_debian"
 
-SRC_URI[md5sum] = "d1a4530365cc306b63aae9f34f40e88b"
-SRC_URI[sha256sum] = "3ada9b83a3d671b58081782c0969cffa0102f6ce433fbbc7cf21275b8b5cc771"
+SRC_URI[md5sum] = "3de53753e6333b9772bba314d09de2a8"
+SRC_URI[sha256sum] = "fe4fc3dc798dbf1f0ef5865e2b1b4f7cc0352b6a511b25ab7594906c64a73629"
 
 inherit pypi
 inherit python_setuptools_build_meta
