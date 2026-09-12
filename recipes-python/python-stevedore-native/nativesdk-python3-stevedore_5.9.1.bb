@@ -9,8 +9,8 @@ DEPENDS += "python3-pbr-native"
 
 PYPI_PACKAGE = "stevedore"
 
-SRC_URI[md5sum] = "0fa2f9222f54356e45716b6a3432a6df"
-SRC_URI[sha256sum] = "abbd0af7a38a8bbb1d6adea2e35b17609cf004eaac323e88a8d8963640dd2b3c"
+SRC_URI[md5sum] = "72a197823cb696dce7dd577529deecc6"
+SRC_URI[sha256sum] = "e97a2667923efda926e8713fde6a73616df68210a3cbc6f02b48967b676fd8bf"
 
 inherit pypi
 inherit python_pep517
