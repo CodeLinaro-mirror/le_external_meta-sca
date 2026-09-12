@@ -7,10 +7,10 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=6aba56fb2ab6893b08fb8daa7eeba461"
 
 DEPENDS += "python3-flake8-polyfill-native"
 
-PYPI_PACKAGE = "pep8-naming"
+PYPI_PACKAGE = "pep8_naming"
 
-SRC_URI[md5sum] = "9f7bfb53831ec3a6adfc97f39b23ab72"
-SRC_URI[sha256sum] = "1ef228ae80875557eb6c1549deafed4dabbf3261cfcafa12f773fe0db9be8a36"
+SRC_URI[md5sum] = "0c691538417644ac7bc997737d9cf3ee"
+SRC_URI[sha256sum] = "f6f4a499aba2deeda93c1f26ccc02f3da32b035c8b2db9696b730ef2c9639d29"
 
 inherit pypi
 inherit setuptools3
