@@ -1,5 +1,5 @@
-SRC_URI += "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.0.zip;srcoutput=github.com/stretchr/testify;srcinput=github.com/stretchr/testify@v1.12.0;downloadfilename=github-com-stretchr-testify-1.12.0.zip;name=github-com-stretchr-testify"
-SRC_URI[github-com-stretchr-testify.sha256sum] = "f0c60295b42ab8de3ddde4b5030899380ac477fb0503f444e3159d12b5332d8f"
+SRC_URI += "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip;srcoutput=github.com/stretchr/testify;srcinput=github.com/stretchr/testify@v1.12.1;downloadfilename=github-com-stretchr-testify-1.12.1.zip;name=github-com-stretchr-testify"
+SRC_URI[github-com-stretchr-testify.sha256sum] = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
 
 GOSRC_LICENSE += "\
     BSD-3-Clause \
@@ -15,4 +15,4 @@ LIC_FILES_CHKSUM += "\
 GOSRC_INCLUDEGUARD += "github.com-stretchr-testify-sources.inc"
 
 require ${@bb.utils.contains('GOSRC_INCLUDEGUARD', 'github.com-stretchr-objx-sources.inc', '', 'github.com-stretchr-objx-sources.inc', d)}
-require ${@bb.utils.contains('GOSRC_INCLUDEGUARD', 'gopkg.in-yaml.v3-sources.inc', '', 'gopkg.in-yaml.v3-sources.inc', d)}
+require ${@bb.utils.contains('GOSRC_INCLUDEGUARD', 'go.yaml.in-yaml-v3-sources.inc', '', 'go.yaml.in-yaml-v3-sources.inc', d)}
