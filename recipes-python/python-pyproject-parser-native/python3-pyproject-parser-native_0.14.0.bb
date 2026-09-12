@@ -10,13 +10,14 @@ DEPENDS += "\
     python3-attrs-native \
     python3-dom-toml-native \
     python3-domdf-python-tools-native \
+    python3-license-expression-native \
     python3-natsort-native \
     python3-packaging-native \
     python3-shippinglabel-native \
     python3-typing-extensions-native \
 "
 
-SRC_URI[sha256sum] = "d1e8edbba3a5480eb0ff3ffe8f6943ba2905199878aff1cb05984900a6618201"
+SRC_URI[sha256sum] = "4047bd9a25115e400199e672cd9d8f8ba405d8148d65a76cbf3afbcf77e966e2"
 
 inherit pypi
 inherit python_setuptools_build_meta
@@ -26,4 +27,4 @@ do_configure:prepend() {
     sed -i 's#"setuptools!=.*"#"setuptools"#g' ${S}/pyproject.toml
 }
 
-PYPI_PACKAGE = "pyproject-parser"
+PYPI_PACKAGE = "pyproject_parser"
