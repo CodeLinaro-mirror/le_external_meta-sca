@@ -8,7 +8,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=9563caded03dbd1b6016d79712dbe333"
 DEPENDS += "\
             python3-packaging-native \
             python3-pyyaml-native \
-            python3-six-native \
             python3-tomli-native \
            "
 
@@ -25,5 +24,4 @@ inherit_defer native
 RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-packaging \
     nativesdk-python3-pyyaml \
-    nativesdk-python3-six \
 "

@@ -8,7 +8,6 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/GPL-2.0-or-later;md5=fed5435554
 DEPENDS += "\
     python3-chardet-native \
     python3-setuptools-scm-native \
-    python3-six-native \
     python3-wheel-native \
 "
 
@@ -23,5 +22,4 @@ inherit_defer native
 
 RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-chardet \
-    nativesdk-python3-six \
 "

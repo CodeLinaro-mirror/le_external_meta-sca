@@ -12,7 +12,6 @@ DEPENDS += "\
     nativesdk-python3-isort \
     nativesdk-python3-mccabe \
     nativesdk-python3-platformdirs \
-    nativesdk-python3-six \
     nativesdk-python3-tomlkit \
     python3-pytest-runner-native \
 "
@@ -55,7 +54,6 @@ RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-profile \
     nativesdk-python3-pytest \
     nativesdk-python3-shell \
-    nativesdk-python3-six \
     nativesdk-python3-stringold \
     nativesdk-python3-tomlkit \
     nativesdk-python3-unittest \

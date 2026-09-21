@@ -6,7 +6,6 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=1ba5ada9e6fead1fdc32f43c9f10ba7c"
 
 DEPENDS += "\
-    nativesdk-python3-six \
     nativesdk-python3-webencodings \
 "
 
@@ -21,6 +20,5 @@ inherit setuptools3
 inherit_defer nativesdk
 
 RDEPENDS:${PN}:class-nativesdk += "\
-    nativesdk-python3-six \
     nativesdk-python3-webencodings \
 "

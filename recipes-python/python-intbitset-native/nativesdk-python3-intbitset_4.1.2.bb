@@ -6,7 +6,6 @@ LICENSE = "LGPL-3.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=e6a600fd5e1d9cbde2d983680233ad02"
 
 DEPENDS += "\
-    nativesdk-python3-six \
     python3-cython-native \
 "
 
@@ -27,5 +26,4 @@ do_compile:prepend() {
 
 RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-cython \
-    nativesdk-python3-six \
 "

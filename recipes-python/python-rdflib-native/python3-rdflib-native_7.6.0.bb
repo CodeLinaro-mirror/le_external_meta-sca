@@ -6,7 +6,6 @@ LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=37d489c0cefe52a17e1d5007e196464a"
 
 DEPENDS += "\
-             python3-html5lib-native \
              python3-isodate-native \
              python3-pyparsing-native \
            "
@@ -21,7 +20,6 @@ inherit python_poetry_core
 inherit_defer native
 
 RDEPENDS:${PN}:class-nativesdk += "\
-    nativesdk-python3-html5lib \
     nativesdk-python3-isodate \
     nativesdk-python3-pyparsing \
 "

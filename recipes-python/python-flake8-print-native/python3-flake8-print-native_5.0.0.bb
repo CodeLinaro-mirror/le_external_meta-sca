@@ -8,7 +8,6 @@ LIC_FILES_CHKSUM = "file://LICENCE;md5=5062d59f7c370e1fae388e102ca06095"
 DEPENDS += "\
             python3-flake8-native \
             python3-pycodestyle-native \
-            python3-six-native \
             "
 
 PYPI_PACKAGE = "flake8-print"
@@ -28,5 +27,4 @@ RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-core \
     nativesdk-python3-flake8 \
     nativesdk-python3-pycodestyle \
-    nativesdk-python3-six \
 "

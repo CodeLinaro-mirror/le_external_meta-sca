@@ -10,7 +10,6 @@ DEPENDS += "\
     nativesdk-python3-gitpython \
     nativesdk-python3-pyyaml \
     nativesdk-python3-rich \
-    nativesdk-python3-six \
     nativesdk-python3-stevedore \
     python3-pbr-native \
 "
@@ -42,6 +41,5 @@ RDEPENDS:${PN}:class-nativesdk += "\
     nativesdk-python3-pbr \
     nativesdk-python3-pyyaml \
     nativesdk-python3-rich \
-    nativesdk-python3-six \
     nativesdk-python3-stevedore \
 "

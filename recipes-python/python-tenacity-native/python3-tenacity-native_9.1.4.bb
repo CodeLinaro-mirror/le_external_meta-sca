@@ -7,7 +7,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
 DEPENDS += "\
     python3-setuptools-scm-native \
-    python3-six-native \
 "
 
 PYPI_PACKAGE = "tenacity"

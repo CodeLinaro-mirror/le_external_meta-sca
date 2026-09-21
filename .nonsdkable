@@ -104,6 +104,7 @@
 .*/recipes-python/python-shellexeclist-native/python3-shellexeclist-native.*
 .*/recipes-python/python-shippinglabel-native/.*
 .*/recipes-python/python-simplejson-native/.*
+.*/recipes-python/python-six-native/.*
 .*/recipes-python/python-sortedcontainers-native/.*
 .*/recipes-python/python-spdx-tools-native/.*
 .*/recipes-python/python-tenacity-native/.*
