@@ -96,7 +96,7 @@ jobs:
           echo "date_month=$(date +'%Y-%m')" >> $GITHUB_OUTPUT
           echo "date_day=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - name: configure (caches)
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         with:
           path: /opt/build/sstate-cache
           key: sca-glibc-${{ steps.date.outputs.date }}
@@ -119,7 +119,7 @@ jobs:
           target: qemu-system-native
       - name: build (kernel)
         uses: priv-kweihmann/meta-sca-ci-utils/buildstep@2.0
-        if: ${{ matrix.WITH_KERNEL }} == '1'
+        if: ${{ matrix.WITH_KERNEL == '1' }}
         with:
           target: linux-yocto-tiny      
       - name: build (sca-modules)

@@ -40,7 +40,7 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_OUTPUT
       - name: additional setup (caches)
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         with:
           path: /opt/build/sstate-cache
           key: sca-glibc-${{ steps.date.outputs.date }}
