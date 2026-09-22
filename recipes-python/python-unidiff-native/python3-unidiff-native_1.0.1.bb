@@ -7,8 +7,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=4c434b08ef42fea235bb019b5e5a97b3"
 
 PYPI_PACKAGE = "unidiff"
 
-SRC_URI[md5sum] = "22a472a2102cf5b2d243ecad215342d6"
-SRC_URI[sha256sum] = "5e5d5cfab2dc98be819b74747ab7d9f5af8695369ec8710b93f9ab0f0ae6a449"
+SRC_URI[md5sum] = "f24372292a7b3a46492d1d595628d243"
+SRC_URI[sha256sum] = "d9425bc516390c54743a1045b2c1c97f02d245a913a241dd499f958adb2df998"
 
 inherit pypi
 inherit python_setuptools_build_meta
