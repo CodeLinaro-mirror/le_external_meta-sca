@@ -1,5 +1,5 @@
 SUMMARY = "Static code analyzer for C/C++"
-HOMEPAGE = "https://github.com/danmar/cppcheck"
+HOMEPAGE = "https://github.com/cppcheck-opensource/cppcheck"
 BUGTRACKER = "https://trac.cppcheck.net/"
 
 DEFAULT_PREFERENCE = "${SCA_DEFAULT_PREFERENCE}"
@@ -14,13 +14,13 @@ LIC_FILES_CHKSUM = "\
 SRC_URI = "\
     git://github.com/danmar/cppcheck.git;protocol=https;nobranch=1 \
 "
-SRCREV = "904cfdcf774c44b17db789c8a212e2f1c69fc833"
+SRCREV = "a436ca35ed1887bee789765122b65ed2d7a7e045"
 
 inherit pkgconfig
 inherit sca-description
-inherit_defer native
+inherit_defer nativesdk
 
-LIBZ3 = "z3-native"
+LIBZ3 = "nativesdk-z3"
 
 PACKAGECONFIG ??= "z3"
 PACKAGECONFIG[z3] = "USE_Z3=yes,,${LIBZ3}"
